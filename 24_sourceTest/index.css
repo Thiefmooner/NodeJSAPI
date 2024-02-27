@@ -1,0 +1,42 @@
+.container {
+    height: 500px;
+    width: 600px;
+    margin: auto;
+}
+
+.header {
+    height: 100px;
+    background-color: #beebe9;
+    text-align: center;
+    line-height: 100px;
+}
+
+.logo {
+    height: 50px;
+    width: 80px;
+    background-color: #8ac6d1;
+    margin: 30px;
+    position: absolute;
+    text-align: center;
+    line-height: 50px;
+}
+
+.main {
+    height: 330px;
+    background-color: #fffdf9;
+}
+
+.sider {
+    width: 150px;
+    height: 330px;
+    background-color: #ffe3ed;
+    text-align: center;
+    line-height: 300px;
+}
+
+.footer {
+    height: 70px;
+    background-color: #8ac6d1;
+    text-align: center;
+    line-height: 100px;
+}

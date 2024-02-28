@@ -11,6 +11,7 @@ app.get('/request',(req,res)=>{
     console.log(req.path)//获取请求路径
     console.log(req.query)//获取查询字符串
     console.log(req.get('host'))//获取指定的请求头
+    console.log(req.ip)
 
     res.send("请求报文的获取")
 })

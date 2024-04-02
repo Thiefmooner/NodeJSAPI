@@ -8,12 +8,17 @@ app.get('/request',(req,res)=>{
     console.log(req.headers)
 
     //*****express独有的******
-    console.log(req.path)//获取请求路径
-    console.log(req.query)//获取查询字符串
+    console.log(req.path)//获取请求路径  比如/inidex
+    console.log(req.query)//获取查询字符串，就是路径后的参数 a=100&&b=221
     console.log(req.get('host'))//获取指定的请求头
     console.log(req.ip)
 
     res.send("请求报文的获取")
+})
+
+app.post('/login',(req,res)=>{
+    res.setHeader("content-type","text/html;charset=utf-8")//有先后顺序的问题 
+    res.end("post请求发送OK")
 })
 //3000端口好像被别的占用了，用9000
 app.listen(9000,()=>{

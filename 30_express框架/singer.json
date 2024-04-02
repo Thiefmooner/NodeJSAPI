@@ -1,0 +1,26 @@
+{
+    "singer":[
+    {
+    "singer_name":"Luis Amstong",
+    "singer_pic":"https://p8.itc.cn/q_70/images03/20220119/8576b97710134fc29181e71c1d7b04bd.jpeg",
+    "other_name":"Jay Chou",
+    "singer_id":4558,
+    "id":1
+    },
+    {
+        "singer_name":"林俊杰",
+        "singer_pic":"http://y.gtimg.cn/music/photo_new/T001R150x150Me00001BLpXF2DyJe2.webp",
+        "other_name":"JJ Lin",
+        "singer_id":4286,
+        "id":2
+        
+    },
+    {
+        "singer_name":"G.E.M.邓紫棋",
+        "singer_pic":"http://y.gtimg.cn/music/photo_new/T001R150x150Mo0o001fNHEf1SFEFN.webp",
+        "other_name":"Gloria Tang",
+        "singer_id":13948,
+        "id":3
+    }
+]
+}

@@ -15,12 +15,12 @@ const urlencodedParser = bodyParser.urlencoded({extended:false})
 
 
 //4.urlencodedParser放到get请求的参数里
-app.get('/login',urlencodedParser,(req,res)=>{
+app.get('/login',(req,res)=>{
     //这是响应一个html文件的意思
     //且，这个文件有个登录按钮可以发POST请求
     res.sendFile(__dirname + '/form.html')
 })
-app.post('/login',(req,res)=>{
+app.post('/login',urlencodedParser,(req,res)=>{
     console.log(req.body)//5.获取用户名,密码
     res.send('获取用户数据')
 })
